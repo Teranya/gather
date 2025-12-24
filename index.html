@@ -13,7 +13,7 @@
         Show a file-select field which allows
         only one file to be chosen:
     </h3>
-    <form action="/action_page.php" enctype="multipart/form-data">
+        <form name="contact" method="POST" data-netlify="true" action="/action_page.php" enctype="multipart/form-data">
         <label for="myfile">Select a file:</label>
         <input type="file" accept="image/*" (change)="getFile($event)" name="myfile"/>
         <!-- <input type="file" id="myfile" name="myfile" /> -->
